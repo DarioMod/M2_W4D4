@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Job Search</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Job Search</h1>
+    <div class="search-box">
+      <label for="jobTitle">Job Title:</label>
+      <input type="text" id="jobTitle" placeholder="Enter job title">
+    </div>
+    <div class="search-box">
+      <label for="jobLocation">Job Location:</label>
+      <input type="text" id="jobLocation" placeholder="Enter job location">
+    </div>
+    <button onclick="performSearch()">Cerca</button>
+    <h2>Results</h2>
+    <ul id="results"></ul>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
